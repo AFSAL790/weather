@@ -5,10 +5,19 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url('https://i.pinimg.com/564x/c4/58/8b/c4588ba5d894080cd9ffa40648415c4f.jpg');
+  background-image: url('https://i.pinimg.com/564x/20/c7/aa/20c7aa703c15305cd518802c32655e69.jpg');
   background-repeat: no-repeat;
-  background-size:cover ;
+  background-size: cover ;
   
+}
+
+@media (
+max-width:992px
+)
+{
+    body{
+      background-size: auto;
+    }
 }
 .card{
   width: 90%;
